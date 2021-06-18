@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Checkbox from './Checkbox';
+import Play from './Play.js';
+import Font from './Font.js';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Play />
+    <Checkbox />
+    <Font />
   </React.StrictMode>,
   document.getElementById('root')
 );
